@@ -16,10 +16,11 @@
 	echo
 	echo '                          Welcome to Remote Media server setup.'
 	echo
-	echo 'Please make sure you have read the instructions in the GitHub repository prior to installing to'
-	echo 'make sure your system meets the requirements.'
+	echo '📢Please make sure you have read the instructions in the GitHub repository prior to installing to'
+	echo 'make sure your system meets the requirements. 📢'
 	echo
-        printf " \033[31m %s \n\033[0m" "                                🚨🚨!!  WARNING  !! 🚨🚨"
+        echo "                                    🚨🚨  WARNING   🚨🚨"
+	#printf " \033[31m %s \n\033[0m" "                                🚨🚨  WARNING   🚨🚨"
 	echo
 	echo 'This configuration will overwite any current ~/docker path folders of same name.'
 	echo
@@ -61,7 +62,7 @@ front_configure() {
                                 ;;
                         "Quit")
                                 echo
-				echo "Exiting.."
+				echo "Exiting ... 👋"
                                 echo
                                 exit
                                 ;;
@@ -96,7 +97,7 @@ front_install() {
                                 ;;
                         "Quit")
                                 echo
-                                echo "Exiting.."
+                                echo "Exiting ... 👋"
                                 echo
 				exit
 				;;
